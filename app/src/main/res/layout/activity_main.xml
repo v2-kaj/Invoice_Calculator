@@ -15,13 +15,6 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:inputType="number"/>
-    <EditText
-        app:layout_constraintStart_toEndOf="@id/number_of_days"
-        app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/rate_per_day"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:inputType="numberDecimal"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

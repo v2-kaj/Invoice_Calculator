@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Invoice Calculator</string>
+    <string name="number_of_days">Number of days</string>
+    <string name="daily_charge">Daily Charge</string>
+    <string name="add_tax">Add 16.5% Tax?</string>
+    <string name="calculate_invoice">Calculate invoice</string>
+    <string name="invoice_amount_is">Invoice amount is:</string>
 </resources>

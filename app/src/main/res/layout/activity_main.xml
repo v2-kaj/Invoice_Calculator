@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:inputType="number"
-        android:hint="Number of days"
+        android:hint="@string/number_of_days"
         android:layout_marginTop="20dp"
         />
     <EditText
@@ -27,15 +27,15 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:inputType="number"
-        android:hint="Daily Charge"
+        android:hint="@string/daily_charge"
         />
 
-    <Switch
+    <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/tax_switch"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:checked="true"
-        android:text="Add 16.5% Tax?"
+        android:text="@string/add_tax"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +44,7 @@
         android:id="@+id/invoice_amount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Invoice amount is: "
+        android:text="@string/invoice_amount_is"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tax_switch"/>
@@ -52,7 +52,7 @@
         android:id="@+id/calculate_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Calculate"
+        android:text="@string/calculate_invoice"
         android:layout_marginTop="20dp"
         app:layout_constraintTop_toBottomOf="@id/invoice_amount"
         app:layout_constraintStart_toStartOf="parent"

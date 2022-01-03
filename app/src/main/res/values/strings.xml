@@ -4,5 +4,5 @@
     <string name="daily_charge">Daily Charge</string>
     <string name="add_tax">Add 16.5% Tax?</string>
     <string name="calculate_invoice">Calculate invoice</string>
-    <string name="invoice_amount_is">Invoice amount is:</string>
+    <string name="invoice_amount_is">Invoice amount is: %s</string>
 </resources>

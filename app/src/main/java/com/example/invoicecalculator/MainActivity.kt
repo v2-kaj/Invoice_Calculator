@@ -16,7 +16,9 @@ class MainActivity : AppCompatActivity() {
         binding.calculateButton.setOnClickListener { calculateInvoice() }
     }
     fun calculateInvoice(){
-        val amount= binding.dailyRate.text.toString().toDouble() * binding.dailyRate.text.toString().toDouble()
+        val days= binding.numberOfDays.text.toString().toDouble()
+        val rate = binding.dailyRate.text.toString().toDouble()
+        val amount= rate * days
         val formattedAmount = NumberFormat.getCurrencyInstance().format(amount.toString().toDouble())
         binding.invoiceAmount.text=getString(R.string.invoice_amount_is, formattedAmount)
     }
